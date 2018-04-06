@@ -36,7 +36,7 @@ public class test1 {
                 max = number[i];
                 sum[i] = number[i];
             }
-            else sum[i] = max(sum[i-1]+number[i],number[i]);   
+            else sum[i] = max(sum[i-1]+number[i],number[i]);//状态转移方程:sum[i]=max(sum[i-1]+a[i],a[i])
 
             if (max < sum[i]) max = sum[i];
         }
