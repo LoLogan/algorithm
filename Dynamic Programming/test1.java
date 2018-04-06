@@ -20,7 +20,7 @@ public class test1 {
 
 
     /***
-     * 动态规划很清晰，但是遍历了两次数组，感觉效率略低
+     * 动态规划的关键点在于找到状态转移方程
      * @param number
      * @return
      */
@@ -36,7 +36,7 @@ public class test1 {
                 max = number[i];
                 sum[i] = number[i];
             }
-            else sum[i] = max(sum[i-1]+number[i],number[i]);   //状态转移方程
+            else sum[i] = max(sum[i-1]+number[i],number[i]);   
 
             if (max < sum[i]) max = sum[i];
         }
