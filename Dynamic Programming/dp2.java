@@ -8,7 +8,7 @@ import java.util.Scanner;
            2  18   9  5
          19  7  10  4  16
  */
-public class test2 {
+public class dp2 {
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();

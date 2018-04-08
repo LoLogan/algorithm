@@ -8,7 +8,7 @@ import java.util.Scanner;
     { -2, 11, -4, 13, -5, -2 }，其最大连续子序列为{ 11, -4, 13 }，最大和为20。
 
 */
-public class test1 {
+public class dp1 {
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();

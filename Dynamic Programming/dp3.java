@@ -3,7 +3,7 @@ import java.util.Scanner;
 /***
  * 给定一个序列 An = a1 ,a2 ,  ... , an ，找出最长的子序列使得对所有 i < j ，ai < aj 。
  */
-public class test3 {
+public class dp3 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();

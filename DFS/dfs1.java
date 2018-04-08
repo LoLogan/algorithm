@@ -27,7 +27,7 @@ import java.util.Scanner;
     岛屿数
     3
  */
-public class test4 {
+public class dfs1 {
     static int m;
     static int n;
     public static void main(String[] args){
