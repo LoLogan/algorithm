@@ -7,7 +7,7 @@
       <sourceFolder url="file://$MODULE_DIR$/DFS" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Sort" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Tree" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/offer" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/sword" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
