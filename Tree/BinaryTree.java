@@ -135,6 +135,46 @@ public class BinaryTree {
     }
 
 
+
+    //数的深度 递归
+    public int TreeDepth(BinaryNode pRoot) {
+        if(pRoot == null){
+            return 0;
+        }
+        int left = TreeDepth(pRoot.left);
+        int right = TreeDepth(pRoot.right);
+        return Math.max(left, right) + 1;
+    }
+
+
+    //树的深度 非递归
+    public int TreeDepth1(BinaryNode pRoot)
+    {
+        if(pRoot == null){
+            return 0;
+        }
+        Queue<BinaryNode> queue = new LinkedList<BinaryNode>();
+        queue.add(pRoot);
+        int depth = 0, count = 0, nextCount = 1;
+        while(queue.size()!=0){
+            BinaryNode top = queue.poll();
+            count++;
+            if(top.left != null){
+                queue.add(top.left);
+            }
+            if(top.right != null){
+                queue.add(top.right);
+            }
+            if(count == nextCount){
+                nextCount = queue.size();
+                count = 0;
+                depth++;
+            }
+        }
+        return depth;
+    }
+
+
 }
 //二叉树 数据结构
 class BinaryNode

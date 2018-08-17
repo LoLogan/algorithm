@@ -8,6 +8,8 @@
       <sourceFolder url="file://$MODULE_DIR$/Sort" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Tree" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/sword" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cache" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/algorithm" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
