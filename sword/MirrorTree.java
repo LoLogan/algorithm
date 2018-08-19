@@ -6,6 +6,7 @@ import java.util.Queue;
  */
 public class MirrorTree {
 
+    //递归
     public void mirrorRecursively(TreeNode root) {
         if (root == null) {
             return ;
@@ -26,6 +27,7 @@ public class MirrorTree {
         }
     }
 
+    //非递归
     public static TreeNode mirror(TreeNode root){
         if(root == null){
             return null;
