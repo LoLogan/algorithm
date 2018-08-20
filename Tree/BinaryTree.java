@@ -186,6 +186,10 @@ class BinaryNode
     {
         this(element, null, null);
     }
+    BinaryNode()
+    {
+
+    }
 
     BinaryNode(int element, BinaryNode lt, BinaryNode rt)
     {
