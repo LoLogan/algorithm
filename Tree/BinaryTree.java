@@ -146,6 +146,25 @@ public class BinaryTree {
         return Math.max(left, right) + 1;
     }
 
+    //树的最小深度
+    public int run(TreeNode root) {
+        if(root==null)return 0;
+        if(root.left==null && root.right==null) return 1;
+        else if(root.left==null){
+            return run(root.right)+1;
+        }
+        else if(root.right==null){
+            return run(root.left)+1;
+        }
+        else {
+            int l = run(root.left);
+            int r = run(root.right);
+            return l>r?r+1:l+1;
+        }
+
+
+    }
+
 
     //树的深度 非递归
     public int TreeDepth1(BinaryNode pRoot)
