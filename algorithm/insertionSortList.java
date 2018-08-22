@@ -1,4 +1,4 @@
-public class Solution {
+public class insertionSortList {
     public ListNode insertionSortList(ListNode head) {
         //哑节点
         ListNode dumy = new ListNode(Integer.MIN_VALUE);
